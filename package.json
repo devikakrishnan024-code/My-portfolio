@@ -1,0 +1,11 @@
+{
+  "name": "devika-portfolio",
+  "version": "1.0.0",
+  "description": "Cybersecurity Portfolio",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
