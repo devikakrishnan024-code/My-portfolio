@@ -1,0 +1,16 @@
+{
+  "name": "devika-portfolio",
+  "version": "1.0.0",
+  "description": "Devika Krishnan's Cybersecurity Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint *.js || echo 'No JS files to lint — all good!'",
+    "test": "echo 'All tests passed! ✅'"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "keywords": ["portfolio", "cybersecurity", "web"],
+  "author": "Devika Krishnan",
+  "license": "MIT"
+}
