@@ -1047,12 +1047,12 @@ document.getElementById('contactForm').addEventListener('submit', async function
   // Replace this URL with your Render.com backend URL after deployment
   const BACKEND_URL = 'https://my-portfolio-8mmi.onrender.com';
 
-  try {
-    const res = await fetch(BACKEND_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
+const res = await fetch(`${BACKEND_URL}/api/contact`, {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(payload)
+});
+
     if (res.ok) {
       status.className = 'success';
       status.textContent = '✓ Message sent successfully! I will get back to you soon.';
